@@ -1,0 +1,2 @@
+primary color: #8E24AA
+secondary color: ##FF6600

@@ -1,0 +1,155 @@
+ :root {
+            --primary-color: #8E24AA;
+            --secondary-color: #FF6600;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #fff;
+            overflow-x: hidden;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: var(--primary-color);
+        }
+
+        .navbar-brand img {
+            height: 45px;
+        }
+
+        .nav-link {
+            color: #fff !important;
+            font-weight: 500;
+        }
+
+        .nav-link:hover {
+            color: var(--secondary-color) !important;
+        }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 6rem 0;
+            text-align: center;
+        }
+
+        .hero img {
+            width: 150px;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero .btn-buy {
+            background-color: var(--secondary-color);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: 0.3s;
+            padding: 0.75rem 2rem;
+        }
+
+        .hero .btn-buy:hover {
+            background-color: #e85a00;
+        }
+
+        /* Carrusel de opiniones */
+        .opiniones {
+            background-color: #f8f8f8;
+            padding: 3rem 0;
+            overflow: hidden;
+        }
+
+        .opiniones h2 {
+            color: var(--primary-color);
+            font-weight: 700;
+            margin-bottom: 2rem;
+        }
+
+        .carrusel-track {
+            display: flex;
+            gap: 2rem;
+            white-space: nowrap;
+            animation: scroll 30s linear infinite;
+        }
+
+        .carrusel-item {
+            display: inline-block;
+            background-color: white;
+            border-radius: 15px;
+            padding: 1.5rem 2rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            color: #4a4a4a;
+            font-style: italic;
+            min-width: 400px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        @keyframes scroll {
+            from {
+                transform: translateX(0);
+            }
+
+            to {
+                transform: translateX(-50%);
+            }
+        }
+        /* fin carrusel */
+
+        /* Títulos */
+        .title {
+            color: var(--primary-color);
+            font-weight: 700;
+        }
+
+        /* Tarjetas */
+        .card {
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: #1c1c1c;
+            color: #fff;
+        }
+
+        .card img {
+            width: 100%;
+            object-fit: cover;
+            background-color: #fff;
+            padding: 1rem;
+        }
+
+        .card-title {
+            color: var(--primary-color);
+            font-weight: 700;
+        }
+
+        .btn-buy {
+            background-color: var(--secondary-color);
+            border: none;
+            color: white;
+            font-weight: 600;
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+
+        .btn-buy:hover {
+            background-color: #e85a00;
+        }
+        /* fin tarjetas */
+
+        footer {
+            background-color: #f8f8f8;
+            color: #666;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 3rem;
+            font-size: 0.9rem;
+        }
