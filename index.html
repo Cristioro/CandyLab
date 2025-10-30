@@ -14,38 +14,42 @@
 </head>
 
 <body>
+    <div class="gradient">
+        <div class="noise"></div>
+        <div style="z-index: 10;">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/logo.svg" alt="CandyLab Logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="assets/logo.svg" alt="CandyLab Logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="productos/">Productos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="nosotros/">Nosotros</a></li>
+                            <li class="nav-item"><a class="nav-link" href="nuestro-equipo/">Nuestro Equipo</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contacto/">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
 
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="productos/">Productos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="nosotros/">Nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="nuestro-equipo/">Nuestro Equipo</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contacto/">Contacto</a></li>
-                </ul>
-            </div>
+            <!-- Hero principal -->
+            <section class="hero">
+                <div class="container">
+                    <img src="assets/logo.svg" alt="CandyLab Logo">
+                    <h1 class="display-5 fw-bold">Perlas de Arándanos con Helado</h1>
+                    <p class="lead mb-4">¡Un dulce laboratorio de sabor, hecho para enamorar tu paladar!</p>
+                    <a href="productos/" class="btn btn-buy btn-lg">Comprar ahora 🍦</a>
+                </div>
+            </section>
         </div>
-    </nav>
-
-    <!-- Hero principal -->
-    <section class="hero">
-        <div class="container">
-            <img src="assets/logo.svg" alt="CandyLab Logo">
-            <h1 class="display-5 fw-bold">Perlas de Arándanos con Helado</h1>
-            <p class="lead mb-4">¡Un dulce laboratorio de sabor, hecho para enamorar tu paladar!</p>
-            <a href="productos/" class="btn btn-buy btn-lg">Comprar ahora 🍦</a>
-        </div>
-    </section>
+    </div>
 
     <!-- Carrusel de opiniones -->
     <section class="opiniones text-center">
